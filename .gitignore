@@ -44,3 +44,6 @@ _*.txt
 _*.tmp
 .claude/
 CLAUDE.md
+
+# --- Local convenience launcher for the initial push ---
+push_to_github.bat
