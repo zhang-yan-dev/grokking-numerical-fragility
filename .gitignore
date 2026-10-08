@@ -47,3 +47,4 @@ CLAUDE.md
 
 # --- Local convenience launcher for the initial push ---
 push_to_github.bat
+rename_repo.bat
