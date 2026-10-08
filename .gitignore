@@ -45,6 +45,7 @@ _*.tmp
 .claude/
 CLAUDE.md
 
-# --- Local convenience launcher for the initial push ---
+# --- Local convenience launchers (initial push, rename, follow-up sync) ---
 push_to_github.bat
 rename_repo.bat
+sync_push.bat
