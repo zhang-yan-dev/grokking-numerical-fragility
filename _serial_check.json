@@ -1,0 +1,112 @@
+[
+  {
+    "seed": 2,
+    "stored": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 2,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 900,
+      "secs": 80.8
+    },
+    "serial": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 2,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 900,
+      "secs": 57.7
+    },
+    "wall": 65.6
+  },
+  {
+    "seed": 4,
+    "stored": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 4,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 1200,
+      "secs": 75.8
+    },
+    "serial": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 4,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 1200,
+      "secs": 57.3
+    },
+    "wall": 66.5
+  },
+  {
+    "seed": 6,
+    "stored": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 6,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 500,
+      "secs": 77.1
+    },
+    "serial": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 6,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 500,
+      "secs": 61.0
+    },
+    "wall": 68.7
+  },
+  {
+    "seed": 7,
+    "stored": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 7,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 76.2
+    },
+    "serial": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 7,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 73.3
+    },
+    "wall": 82.4
+  },
+  {
+    "seed": 8,
+    "stored": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 8,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 1300,
+      "secs": 64.7
+    },
+    "serial": {
+      "wd": 0.1,
+      "threads": 4,
+      "seed": 8,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 1300,
+      "secs": 62.0
+    },
+    "wall": 69.7
+  }
+]

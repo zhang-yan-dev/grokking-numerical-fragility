@@ -1,0 +1,118 @@
+{
+  "grid": {
+    "0.0": {
+      "author": {
+        "n": 10,
+        "grok": 2,
+        "rate": 0.2,
+        "ci": [
+          0.0567,
+          0.5098
+        ]
+      },
+      "ours": {
+        "n": 10,
+        "grok": 1,
+        "rate": 0.1,
+        "ci": [
+          0.0179,
+          0.4042
+        ]
+      },
+      "seeds_not_retrained": [],
+      "paired": {
+        "n": 10,
+        "flip_seeds": [
+          9
+        ],
+        "mean_abs_delta": 0.135,
+        "max_abs_delta": 0.3
+      }
+    },
+    "0.1": {
+      "author": {
+        "n": 10,
+        "grok": 9,
+        "rate": 0.9,
+        "ci": [
+          0.5958,
+          0.9821
+        ]
+      },
+      "ours": {
+        "n": 10,
+        "grok": 10,
+        "rate": 1.0,
+        "ci": [
+          0.7225,
+          1.0
+        ]
+      },
+      "seeds_not_retrained": [],
+      "paired": {
+        "n": 10,
+        "flip_seeds": [
+          3
+        ],
+        "mean_abs_delta": 0.13,
+        "max_abs_delta": 0.35
+      }
+    },
+    "1.0": {
+      "author": {
+        "n": 10,
+        "grok": 0,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          0.2775
+        ]
+      },
+      "ours": {
+        "n": 10,
+        "grok": 0,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          0.2775
+        ]
+      },
+      "seeds_not_retrained": [],
+      "paired": {
+        "n": 10,
+        "flip_seeds": [],
+        "mean_abs_delta": 0.0,
+        "max_abs_delta": 0.0
+      }
+    }
+  },
+  "independence_note": "",
+  "author_sequence": [
+    [
+      "0.0",
+      0.2
+    ],
+    [
+      "0.1",
+      0.9
+    ],
+    [
+      "1.0",
+      0.0
+    ]
+  ],
+  "ours_sequence": [
+    [
+      "0.0",
+      0.1
+    ],
+    [
+      "0.1",
+      1.0
+    ],
+    [
+      "1.0",
+      0.0
+    ]
+  ]
+}

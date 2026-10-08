@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Model weights: fetched from HuggingFace, never committed ---
+# https://huggingface.co/Glint-Research/Glimmer-1-Base  (11,856 params, 49 KB)
+models/
+
+# --- Run scratch ---
+# Batch-training logs are noise: ~600 files of loader progress bars.
+# The released evidence is the per-seed JSON under results/.
+logs/
+run-ours/results/logs/
+run-ours/results/*.log
+run-ours/results/*.err
+*.pt
+
+# --- Redundant: the archive is a superset restore point kept locally.
+#     Its full contents are committed under grokking-microscope-main/ ---
+grokking-microscope.tar.gz
+
+# --- Redundant: author's published results, already committed under
+#     grokking-microscope-main/results/ . Kept locally as the comparison
+#     baseline so a stray write can never corrupt the reference copy. ---
+author-results-backup/
+
+# --- De-anonymized preprint/journal builds (upstream convention) ---
+paper/arxiv/
+paper/springer/
+paper/*.tar.gz
+paper/cover_letter_*.md
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+*.swp
+
+# --- Local scratch / agent state ---
+_*.txt
+_*.tmp
+.claude/
+CLAUDE.md

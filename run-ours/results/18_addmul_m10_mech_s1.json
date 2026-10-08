@@ -1,0 +1,24 @@
+{
+  "family": "addmul_m10",
+  "mod": 10,
+  "seed": 1,
+  "specialists": [
+    {
+      "name": "add",
+      "train_acc": 1.0,
+      "heldout_acc": 0.1
+    },
+    {
+      "name": "mul",
+      "train_acc": 1.0,
+      "heldout_acc": 0.7
+    }
+  ],
+  "pipeline": {
+    "overall_acc": 0.693,
+    "acc_2ndspec_pair_SEEN": 0.75,
+    "acc_2ndspec_pair_HELDOUT": 0.493,
+    "frac_seen": 0.777
+  },
+  "secs": 274.3
+}

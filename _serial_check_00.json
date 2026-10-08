@@ -1,0 +1,68 @@
+[
+  {
+    "seed": 0,
+    "stored": {
+      "wd": 0.0,
+      "threads": 4,
+      "seed": 0,
+      "best": 0.25,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 83.7
+    },
+    "serial": {
+      "wd": 0.0,
+      "threads": 4,
+      "seed": 0,
+      "best": 0.25,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 62.5
+    },
+    "wall": 69.9
+  },
+  {
+    "seed": 6,
+    "stored": {
+      "wd": 0.0,
+      "threads": 4,
+      "seed": 6,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 200,
+      "secs": 80.5
+    },
+    "serial": {
+      "wd": 0.0,
+      "threads": 4,
+      "seed": 6,
+      "best": 0.85,
+      "grok": true,
+      "grok_ep": 200,
+      "secs": 60.6
+    },
+    "wall": 68.2
+  },
+  {
+    "seed": 9,
+    "stored": {
+      "wd": 0.0,
+      "threads": 4,
+      "seed": 9,
+      "best": 0.55,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 59.9
+    },
+    "serial": {
+      "wd": 0.0,
+      "threads": 4,
+      "seed": 9,
+      "best": 0.55,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 54.0
+    },
+    "wall": 61.6
+  }
+]

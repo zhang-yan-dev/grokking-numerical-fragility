@@ -1,0 +1,47 @@
+{
+  "seed": 7,
+  "grok_thresh": 0.7,
+  "tasks": {
+    "add2": {
+      "best": 0.35,
+      "grok": false,
+      "grok_ep": null
+    },
+    "mul2": {
+      "best": 0.7,
+      "grok": true,
+      "grok_ep": 600
+    },
+    "add3": {
+      "best": 0.873,
+      "grok": true,
+      "grok_ep": 1300
+    },
+    "muladd": {
+      "best": 0.387,
+      "grok": false,
+      "grok_ep": null
+    },
+    "add4": {
+      "best": 0.125,
+      "grok": false,
+      "grok_ep": null
+    },
+    "mul2add2": {
+      "best": 0.35,
+      "grok": false,
+      "grok_ep": null
+    }
+  },
+  "specialists": {
+    "mul": 0.55,
+    "add": 0.3
+  },
+  "pipelines": {
+    "muladd_pipe": 0.435,
+    "muladd_mono": 0.387,
+    "mul2add2_pipe": 0.26,
+    "mul2add2_mono": 0.35
+  },
+  "secs": 3428.6
+}

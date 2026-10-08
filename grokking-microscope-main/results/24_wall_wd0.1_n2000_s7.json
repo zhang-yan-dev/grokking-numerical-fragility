@@ -1,0 +1,11 @@
+{
+  "task": "mul2add2",
+  "wd": 0.1,
+  "n_train": 2000,
+  "coverage": 0.2,
+  "seed": 7,
+  "best": 0.516,
+  "grok": false,
+  "grok_ep": null,
+  "secs": 1545.8
+}

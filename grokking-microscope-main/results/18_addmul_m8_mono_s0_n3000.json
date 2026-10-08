@@ -1,0 +1,11 @@
+{
+  "family": "addmul_m8",
+  "mod": 8,
+  "seed": 0,
+  "n_train": 3000,
+  "coverage": 0.3,
+  "best": 0.987,
+  "grok": true,
+  "grok_ep": 300,
+  "secs": 2124.7
+}

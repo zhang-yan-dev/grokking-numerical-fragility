@@ -1,0 +1,24 @@
+{
+  "family": "muladd_m7",
+  "mod": 7,
+  "seed": 2,
+  "specialists": [
+    {
+      "name": "mul",
+      "train_acc": 1.0,
+      "heldout_acc": 1.0
+    },
+    {
+      "name": "add",
+      "train_acc": 1.0,
+      "heldout_acc": 0.75
+    }
+  ],
+  "pipeline": {
+    "overall_acc": 0.931,
+    "acc_2ndspec_pair_SEEN": 1.0,
+    "acc_2ndspec_pair_HELDOUT": 0.705,
+    "frac_seen": 0.766
+  },
+  "secs": 277.4
+}

@@ -1,0 +1,11 @@
+{
+  "family": "muladd_m10",
+  "mod": 10,
+  "seed": 0,
+  "n_train": 2000,
+  "coverage": 0.2,
+  "best": 1.0,
+  "grok": true,
+  "grok_ep": 200,
+  "secs": 475.9
+}

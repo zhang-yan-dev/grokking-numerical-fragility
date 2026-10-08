@@ -1,0 +1,46 @@
+# --- Python environment ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Model weights: fetched from HuggingFace at runtime, never committed ---
+# https://huggingface.co/Glint-Research/Glimmer-1-Base
+models/
+
+# --- Run scratch: the released evidence is results/*.json; logs are noise ---
+results/logs/
+results/*.log
+results/*.err
+*.pt
+
+# --- LaTeX build artifacts (the paper source + PDF are tracked) ---
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.log
+paper/*.synctex.gz
+texput.log
+# pdftotext / bibtex scratch dumps; real paper sources are .tex/.bib/.sty/.bst/.pdf
+paper/*.txt
+
+# --- Internal planning notes, superseded by paper/ (source of truth) ---
+docs/
+
+# --- Agent / editor / OS ---
+.claude/
+CLAUDE.md
+.DS_Store
+Thumbs.db
+
+# --- Temporary text dumps ---
+pass*.txt
+pp.txt
+rw*.txt
+page_*.txt
+
+# De-anonymized preprint/journal builds (kept local, not part of this repo)
+paper/arxiv/
+paper/springer/
+paper/*.tar.gz
+paper/cover_letter_*.md

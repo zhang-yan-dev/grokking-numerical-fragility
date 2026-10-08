@@ -1,0 +1,9 @@
+{
+  "device": "cuda",
+  "wd": 0.1,
+  "seed": 71,
+  "best": 0.25,
+  "grok": false,
+  "grok_ep": null,
+  "secs": 200.1
+}

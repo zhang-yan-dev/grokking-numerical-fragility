@@ -1,0 +1,18 @@
+# ---------------------------------------------------------------------------
+# Exact environment for every reported number. Python 3.12.9.
+# ---------------------------------------------------------------------------
+# torch was installed as the CUDA 12.6 build (2.12.1+cu126):
+#     pip install torch==2.12.1 --index-url https://download.pytorch.org/whl/cu126
+# Only the CPU-vs-GPU device-control leg (scripts/26_device_control.py) needs
+# CUDA. Every other sweep runs on CPU, which is *faster* than the GPU at ~12K
+# parameters (kernel-launch overhead dominates); a CPU-only torch 2.12.1
+# reproduces all CPU results. numpy/matplotlib are only used for the aggregation
+# and figure scripts; safetensors/tokenizers are pulled in transitively by
+# transformers. No scipy/pandas: the statistics (Wilson, Newcombe paired-diff,
+# Fisher-z, exact McNemar, Spearman) are implemented from scratch with numpy.
+# ---------------------------------------------------------------------------
+torch==2.12.1
+transformers==5.12.1
+huggingface_hub==1.20.1
+numpy==2.4.6
+matplotlib==3.11.0

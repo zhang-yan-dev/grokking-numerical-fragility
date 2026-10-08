@@ -1,0 +1,22 @@
+{
+  "task": "mul2add2",
+  "wd": 0.01,
+  "seed": 4,
+  "mono_n": 160,
+  "direct": {
+    "best": 0.239,
+    "grok": false,
+    "grok_ep": null
+  },
+  "scratchpad": {
+    "best": 0.27,
+    "grok": false,
+    "grok_ep": null,
+    "inter_PQ_acc": 0.252
+  },
+  "pipeline": {
+    "best": 0.744,
+    "grok": true
+  },
+  "secs": 313.2
+}

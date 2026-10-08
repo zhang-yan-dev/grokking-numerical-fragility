@@ -1,0 +1,18 @@
+{
+  "seed": 0,
+  "mul_spec": {
+    "train_acc": 1.0,
+    "heldout_acc": 0.4
+  },
+  "add_spec": {
+    "train_acc": 1.0,
+    "heldout_acc": 0.6
+  },
+  "pipeline_mul2add2": {
+    "overall_acc": 0.703,
+    "acc_adder_pair_SEEN": 0.774,
+    "acc_adder_pair_HELDOUT": 0.403,
+    "frac_pairs_seen": 0.809
+  },
+  "secs": 187.7
+}

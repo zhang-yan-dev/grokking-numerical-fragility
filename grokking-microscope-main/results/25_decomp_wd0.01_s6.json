@@ -1,0 +1,22 @@
+{
+  "task": "mul2add2",
+  "wd": 0.01,
+  "seed": 6,
+  "monolith": {
+    "n_train": 160,
+    "best": 0.23,
+    "grok": false,
+    "grok_ep": null
+  },
+  "pipeline": {
+    "overall_acc": 0.568,
+    "grok": false,
+    "mul_train_acc": 1.0,
+    "add_train_acc": 1.0,
+    "acc_adder_pair_SEEN": 0.758,
+    "acc_adder_pair_HELDOUT": 0.085,
+    "frac_seen": 0.718
+  },
+  "pipe_minus_mono": 0.338,
+  "secs": 273.7
+}

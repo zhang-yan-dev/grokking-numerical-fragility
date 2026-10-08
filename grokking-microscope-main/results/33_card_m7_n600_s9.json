@@ -1,0 +1,12 @@
+{
+  "task": "3input_mulpadd",
+  "mod": 7,
+  "domain": 1000,
+  "seed": 9,
+  "n_train": 600,
+  "coverage": 0.6,
+  "best": 0.94,
+  "grok": true,
+  "grok_ep": 100,
+  "secs": 451.6
+}

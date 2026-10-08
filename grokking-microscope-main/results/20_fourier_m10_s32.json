@@ -1,0 +1,64 @@
+{
+  "M": 10,
+  "n_seeds": 5,
+  "results": [
+    {
+      "seed": 32,
+      "train_acc": 1.0,
+      "heldout_acc": 0.05,
+      "grok": false,
+      "emb_fourier": 0.298,
+      "eff_rank": 6.84,
+      "logit_fourier": 0.045
+    },
+    {
+      "seed": 33,
+      "train_acc": 1.0,
+      "heldout_acc": 0.4,
+      "grok": false,
+      "emb_fourier": 0.294,
+      "eff_rank": 6.83,
+      "logit_fourier": 0.057
+    },
+    {
+      "seed": 34,
+      "train_acc": 1.0,
+      "heldout_acc": 0.8,
+      "grok": true,
+      "emb_fourier": 0.292,
+      "eff_rank": 5.89,
+      "logit_fourier": 0.389
+    },
+    {
+      "seed": 35,
+      "train_acc": 1.0,
+      "heldout_acc": 0.75,
+      "grok": true,
+      "emb_fourier": 0.325,
+      "eff_rank": 6.06,
+      "logit_fourier": 0.131
+    },
+    {
+      "seed": 36,
+      "train_acc": 1.0,
+      "heldout_acc": 0.65,
+      "grok": false,
+      "emb_fourier": 0.336,
+      "eff_rank": 6.33,
+      "logit_fourier": 0.104
+    }
+  ],
+  "grokkers": {
+    "n": 2,
+    "emb_fourier": 0.308,
+    "eff_rank": 5.975,
+    "logit_fourier": 0.26
+  },
+  "memorizers": {
+    "n": 3,
+    "emb_fourier": 0.309,
+    "eff_rank": 6.667,
+    "logit_fourier": 0.069
+  },
+  "secs": 570.7
+}

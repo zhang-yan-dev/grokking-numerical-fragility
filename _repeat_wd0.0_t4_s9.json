@@ -1,0 +1,57 @@
+{
+  "config": {
+    "wd": "0.0",
+    "threads": "4",
+    "seed": "9"
+  },
+  "original": {
+    "wd": 0.0,
+    "threads": 4,
+    "seed": 9,
+    "best": 0.55,
+    "grok": false,
+    "grok_ep": null,
+    "secs": 59.9
+  },
+  "runs": [
+    {
+      "run": 1,
+      "best": 0.55,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 57.3,
+      "elapsed": 65.0
+    },
+    {
+      "run": 2,
+      "best": 0.55,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 55.2,
+      "elapsed": 63.8
+    },
+    {
+      "run": 3,
+      "best": 0.55,
+      "grok": false,
+      "grok_ep": null,
+      "secs": 53.5,
+      "elapsed": 61.1
+    }
+  ],
+  "stats": {
+    "n": 3,
+    "best_values": [
+      0.55,
+      0.55,
+      0.55
+    ],
+    "best_min": 0.55,
+    "best_max": 0.55,
+    "best_range": 0.0,
+    "best_mean": 0.55,
+    "grok_true": 0,
+    "grok_false": 3,
+    "grok_flipped": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "device": "cpu",
+  "wd": 0.1,
+  "seed": 65,
+  "best": 0.95,
+  "grok": true,
+  "grok_ep": 500,
+  "secs": 63.2
+}

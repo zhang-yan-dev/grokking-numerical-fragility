@@ -1,0 +1,75 @@
+{
+  "config": {
+    "wd": "0.1",
+    "threads": "4",
+    "seed": "3"
+  },
+  "original": {
+    "wd": 0.1,
+    "threads": 4,
+    "seed": 3,
+    "best": 0.8,
+    "grok": true,
+    "grok_ep": 1000,
+    "secs": 81.1
+  },
+  "runs": [
+    {
+      "run": 1,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 55.6,
+      "elapsed": 63.4
+    },
+    {
+      "run": 2,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 68.1,
+      "elapsed": 75.2
+    },
+    {
+      "run": 3,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 70.5,
+      "elapsed": 78.9
+    },
+    {
+      "run": 4,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 56.5,
+      "elapsed": 64.4
+    },
+    {
+      "run": 5,
+      "best": 0.8,
+      "grok": true,
+      "grok_ep": 1000,
+      "secs": 54.9,
+      "elapsed": 62.5
+    }
+  ],
+  "stats": {
+    "n": 5,
+    "best_values": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "best_min": 0.8,
+    "best_max": 0.8,
+    "best_range": 0.0,
+    "best_mean": 0.8,
+    "grok_true": 5,
+    "grok_false": 0,
+    "grok_flipped": false
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "total": 18,
+  "elapsed": 410.8,
+  "failed": [],
+  "results": [
+    {
+      "wd": "0.0",
+      "seed": 0,
+      "rc": 0,
+      "elapsed": 91.9,
+      "stdout_tail": "wd0.0 t4 s0 best=25% grok=False (83.7s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 1,
+      "rc": 0,
+      "elapsed": 90.3,
+      "stdout_tail": "wd0.0 t4 s1 best=15% grok=False (82.1s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 2,
+      "rc": 0,
+      "elapsed": 93.0,
+      "stdout_tail": "wd0.0 t4 s2 best=25% grok=False (84.8s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 3,
+      "rc": 0,
+      "elapsed": 91.3,
+      "stdout_tail": "wd0.0 t4 s3 best=10% grok=False (82.9s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 4,
+      "rc": 0,
+      "elapsed": 89.0,
+      "stdout_tail": "wd0.0 t4 s4 best=35% grok=False (80.9s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 5,
+      "rc": 0,
+      "elapsed": 88.8,
+      "stdout_tail": "wd0.0 t4 s5 best=20% grok=False (80.8s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 6,
+      "rc": 0,
+      "elapsed": 88.4,
+      "stdout_tail": "wd0.0 t4 s6 best=85% grok=True (80.5s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 8,
+      "rc": 0,
+      "elapsed": 88.6,
+      "stdout_tail": "wd0.0 t4 s8 best=20% grok=False (80.3s)"
+    },
+    {
+      "wd": "0.0",
+      "seed": 9,
+      "rc": 0,
+      "elapsed": 67.3,
+      "stdout_tail": "wd0.0 t4 s9 best=55% grok=False (59.9s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 1,
+      "rc": 0,
+      "elapsed": 68.6,
+      "stdout_tail": "wd1.0 t4 s1 best=0% grok=False (61.0s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 2,
+      "rc": 0,
+      "elapsed": 68.2,
+      "stdout_tail": "wd1.0 t4 s2 best=5% grok=False (60.7s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 3,
+      "rc": 0,
+      "elapsed": 68.5,
+      "stdout_tail": "wd1.0 t4 s3 best=0% grok=False (61.0s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 4,
+      "rc": 0,
+      "elapsed": 92.3,
+      "stdout_tail": "wd1.0 t4 s4 best=0% grok=False (84.4s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 5,
+      "rc": 0,
+      "elapsed": 92.4,
+      "stdout_tail": "wd1.0 t4 s5 best=0% grok=False (84.5s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 6,
+      "rc": 0,
+      "elapsed": 90.8,
+      "stdout_tail": "wd1.0 t4 s6 best=5% grok=False (83.0s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 7,
+      "rc": 0,
+      "elapsed": 90.9,
+      "stdout_tail": "wd1.0 t4 s7 best=5% grok=False (82.6s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 8,
+      "rc": 0,
+      "elapsed": 70.9,
+      "stdout_tail": "wd1.0 t4 s8 best=0% grok=False (63.0s)"
+    },
+    {
+      "wd": "1.0",
+      "seed": 9,
+      "rc": 0,
+      "elapsed": 71.3,
+      "stdout_tail": "wd1.0 t4 s9 best=5% grok=False (63.5s)"
+    }
+  ]
+}

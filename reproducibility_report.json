@@ -1,0 +1,126 @@
+{
+  "n_checked": 13,
+  "n_matching": 13,
+  "all_match": true,
+  "seeds": [
+    {
+      "wd": "0.0",
+      "seed": 0,
+      "stored_best": 0.25,
+      "serial_best": 0.25,
+      "stored_secs": 83.7,
+      "serial_secs": 62.5,
+      "match": true
+    },
+    {
+      "wd": "0.0",
+      "seed": 6,
+      "stored_best": 0.85,
+      "serial_best": 0.85,
+      "stored_secs": 80.5,
+      "serial_secs": 60.6,
+      "match": true
+    },
+    {
+      "wd": "0.0",
+      "seed": 9,
+      "stored_best": 0.55,
+      "serial_best": 0.55,
+      "stored_secs": 59.9,
+      "serial_secs": 54.0,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 0,
+      "stored_best": 0.95,
+      "serial_best": 0.95,
+      "stored_secs": 81.0,
+      "serial_secs": 55.5,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 1,
+      "stored_best": 0.85,
+      "serial_best": 0.85,
+      "stored_secs": 81.2,
+      "serial_secs": 57.0,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 2,
+      "stored_best": 0.85,
+      "serial_best": 0.85,
+      "stored_secs": 80.8,
+      "serial_secs": 57.7,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 3,
+      "stored_best": 0.8,
+      "serial_best": 0.8,
+      "stored_secs": 81.1,
+      "serial_secs": 60.3,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 4,
+      "stored_best": 0.85,
+      "serial_best": 0.85,
+      "stored_secs": 75.8,
+      "serial_secs": 57.3,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 5,
+      "stored_best": 1.0,
+      "serial_best": 1.0,
+      "stored_secs": 75.8,
+      "serial_secs": 55.7,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 6,
+      "stored_best": 0.8,
+      "serial_best": 0.8,
+      "stored_secs": 77.1,
+      "serial_secs": 61.0,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 7,
+      "stored_best": 0.85,
+      "serial_best": 0.85,
+      "stored_secs": 76.2,
+      "serial_secs": 73.3,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 8,
+      "stored_best": 0.85,
+      "serial_best": 0.85,
+      "stored_secs": 64.7,
+      "serial_secs": 62.0,
+      "match": true
+    },
+    {
+      "wd": "0.1",
+      "seed": 9,
+      "stored_best": 1.0,
+      "serial_best": 1.0,
+      "stored_secs": 13.9,
+      "serial_secs": 11.1,
+      "match": true
+    }
+  ],
+  "conclusion": "best is reproducible on this machine under serial re-run: every checked seed reproduced its stored value exactly. Wall time is NOT reproducible because stored runs shared the CPU. Therefore the CPU-contention hypothesis for the wd=0.1 seed-3 anomaly (0.80 vs a single 0.85) is rejected: contention does not move best. A controlled load test (12 CPU burners) also left best unchanged at 0.80.",
+  "withdrawn_claim": "An earlier draft classified the wd=0.1 seed-3 flip as 'trajectory divergence', a second, distance-independent class of flip. That classification is withdrawn: it rested on a single observation that repeated measurement could not reproduce as a stable category."
+}

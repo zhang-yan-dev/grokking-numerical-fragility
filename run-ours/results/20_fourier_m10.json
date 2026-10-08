@@ -1,0 +1,127 @@
+{
+  "M": 10,
+  "n_seeds": 12,
+  "results": [
+    {
+      "seed": 0,
+      "train_acc": 1.0,
+      "heldout_acc": 0.5,
+      "grok": false,
+      "emb_fourier": 0.324,
+      "eff_rank": 6.41,
+      "logit_fourier": 0.159
+    },
+    {
+      "seed": 1,
+      "train_acc": 1.0,
+      "heldout_acc": 0.1,
+      "grok": false,
+      "emb_fourier": 0.403,
+      "eff_rank": 6.92,
+      "logit_fourier": 0.042
+    },
+    {
+      "seed": 2,
+      "train_acc": 1.0,
+      "heldout_acc": 0.15,
+      "grok": false,
+      "emb_fourier": 0.307,
+      "eff_rank": 7.03,
+      "logit_fourier": 0.038
+    },
+    {
+      "seed": 3,
+      "train_acc": 1.0,
+      "heldout_acc": 0.9,
+      "grok": true,
+      "emb_fourier": 0.315,
+      "eff_rank": 5.64,
+      "logit_fourier": 0.078
+    },
+    {
+      "seed": 4,
+      "train_acc": 1.0,
+      "heldout_acc": 0.15,
+      "grok": false,
+      "emb_fourier": 0.273,
+      "eff_rank": 6.77,
+      "logit_fourier": 0.034
+    },
+    {
+      "seed": 5,
+      "train_acc": 1.0,
+      "heldout_acc": 0.35,
+      "grok": false,
+      "emb_fourier": 0.287,
+      "eff_rank": 7.22,
+      "logit_fourier": 0.054
+    },
+    {
+      "seed": 6,
+      "train_acc": 1.0,
+      "heldout_acc": 0.0,
+      "grok": false,
+      "emb_fourier": 0.284,
+      "eff_rank": 6.98,
+      "logit_fourier": 0.044
+    },
+    {
+      "seed": 7,
+      "train_acc": 1.0,
+      "heldout_acc": 0.35,
+      "grok": false,
+      "emb_fourier": 0.287,
+      "eff_rank": 7.19,
+      "logit_fourier": 0.044
+    },
+    {
+      "seed": 8,
+      "train_acc": 1.0,
+      "heldout_acc": 0.05,
+      "grok": false,
+      "emb_fourier": 0.295,
+      "eff_rank": 6.48,
+      "logit_fourier": 0.055
+    },
+    {
+      "seed": 9,
+      "train_acc": 1.0,
+      "heldout_acc": 0.6,
+      "grok": false,
+      "emb_fourier": 0.305,
+      "eff_rank": 6.06,
+      "logit_fourier": 0.045
+    },
+    {
+      "seed": 10,
+      "train_acc": 1.0,
+      "heldout_acc": 0.35,
+      "grok": false,
+      "emb_fourier": 0.344,
+      "eff_rank": 6.05,
+      "logit_fourier": 0.089
+    },
+    {
+      "seed": 11,
+      "train_acc": 1.0,
+      "heldout_acc": 0.1,
+      "grok": false,
+      "emb_fourier": 0.283,
+      "eff_rank": 7.2,
+      "logit_fourier": 0.04
+    }
+  ],
+  "grokkers": {
+    "n": 1,
+    "emb_fourier": 0.315,
+    "eff_rank": 5.64,
+    "logit_fourier": 0.078
+  },
+  "memorizers": {
+    "n": 11,
+    "emb_fourier": 0.308,
+    "eff_rank": 6.755,
+    "logit_fourier": 0.059
+  },
+  "secs": 654.2
+}

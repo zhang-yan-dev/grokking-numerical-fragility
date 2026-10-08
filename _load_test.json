@@ -1,0 +1,18 @@
+{
+  "idle": {
+    "label": "idle",
+    "best": 0.8,
+    "grok": true,
+    "grok_ep": 1000,
+    "secs": 55.1,
+    "wall": 62.8
+  },
+  "loaded": {
+    "label": "loaded",
+    "best": 0.8,
+    "grok": true,
+    "grok_ep": 1000,
+    "secs": 64.3,
+    "wall": 72.6
+  }
+}

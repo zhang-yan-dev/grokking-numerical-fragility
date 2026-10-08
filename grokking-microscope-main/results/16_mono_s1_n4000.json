@@ -1,0 +1,9 @@
+{
+  "seed": 1,
+  "n_train": 4000,
+  "coverage": 0.4,
+  "best": 0.965,
+  "grok": true,
+  "grok_ep": 400,
+  "secs": 3066.6
+}

@@ -1,0 +1,9 @@
+{
+  "wd": 0.01,
+  "threads": 1,
+  "seed": 162,
+  "best": 0.75,
+  "grok": true,
+  "grok_ep": 300,
+  "secs": 89.1
+}

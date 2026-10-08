@@ -1,0 +1,11 @@
+{
+  "family": "addmul_m10",
+  "mod": 10,
+  "seed": 0,
+  "n_train": 1000,
+  "coverage": 0.1,
+  "best": 0.331,
+  "grok": false,
+  "grok_ep": null,
+  "secs": 1697.6
+}
