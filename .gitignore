@@ -49,3 +49,4 @@ CLAUDE.md
 push_to_github.bat
 rename_repo.bat
 sync_push.bat
+push_bypass_gcm.bat
